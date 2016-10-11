@@ -49,16 +49,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#home">HOME</a>
+                        <a href="#home">ホーム</a>
                     </li>
                     <li>
-                        <a href="#post">旅路＆スポット投稿</a>
+                        <a href="#post-plan">旅路投稿</a>
+                    </li>
+                    <li>
+                        <a href="#post-spot">スポット投稿</a>
                     </li>
                     <li>
                         <a href="#mypage">マイページ</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#contact">お問い合わせ</a>
                     </li>
                     <li>
                         <a href="#logout">ログアウト</a>
@@ -79,85 +82,51 @@
           <div class="row">
             <div class="col-md-2 mypage-profile">
               <img alt="user-icon" src="img/user/avatar_user_1.jpg" />
-              <h2>
-                Heading
-              </h2>
-              <p>
-                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-              </p>
-              <p>
-                <a class="btn" href="#">View details »</a>
-              </p>
+              <h4>
+                <a href="">ユーザーネーム</a>
+              </h4>
+              <div class="favorite-number">
+                <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>：◯◯
+              </div>
             </div>
             <div class="col-md-8 mypage-main">
               <ul class="nav nav-tabs">
                 <li class="posted-plan">
                   <a href="#">「◯◯さん」が投稿した旅路</a>
                 </li>
-                <li class="favorite-plan">
-                  <a href="#">「◯◯さん」のお気に入り旅路</a>
-                </li>
-                <li class="favorite-user">
-                  <a href="#">「◯◯さん」のお気に入りユーザー</a>
-                </li>
-<!--                 <li class="dropdown pull-right">
-                   <a href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown<strong class="caret"></strong></a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a href="#">Action</a>
-                    </li>
-                    <li>
-                      <a href="#">Another action</a>
-                    </li>
-                    <li>
-                      <a href="#">Something else here</a>
-                    </li>
-                    <li class="divider">
-                    </li>
-                    <li>
-                      <a href="#">Separated link</a>
-                    </li>
-                  </ul>
-                </li> -->
               </ul>
 
               <div class="plans-show">
-                <div class="plan-content-profile">
-                  <div class="col-md-2">
-                    <div class="position-fix">
-                      <div class="favorite-number">
-                        <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>：◯◯
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-8">
+                <div class="plans-title">
+                  <div class="col-md-12">
                     <div class="plan-title">
-                      <h3>
-                        <a href="#">京都嵐山紅葉デート</a>
+                      <h3 class="plan-title-name">
+                        <a href="#">宇治抹茶スイーツ巡り宇治抹茶スイーツ巡り宇治抹茶スイーツ巡り宇治抹茶スイーツ巡り</a>
                       </h3>
                     </div>
                   </div>
-                  <div class="col-md-2">
-<!--                     <div class="position-fix">
-                      <a href="#" class="active">
-                        <div class="btn-set">
-                          <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+                  <div class="tag-favonum">
+                    <div class="col-md-10 tag-content-mypage">
+                      <span class="glyphicon glyphicon-tags" aria-hidden="true">：◯◯◯◯abcdefghijklmnopqrstuvwxyz◯◯◯◯abcdefghijklmnopqrstuvwxyz◯◯◯◯abcdefghijklmnopqrstuvwxyz◯◯◯◯abcdefghijklmnopqrstuvwxyz◯◯◯◯abcdefghijklmnopqrstuvwxyz◯◯◯◯abcdefghijklmnopqrstuvwxyz</span>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="position-fix-favoritenum">
+                        <div class="favorite-number">
+                          <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>：◯◯
                         </div>
-                      </a>
-                      <a href="#" class="active">
-                        <div class="btn-set">
-                          <span class="glyphicon glyphicon-trash"></span>
-                        </div>
-                      </a>
-                    </div> -->
+                      </div>
+                    </div>
                   </div>
                 </div>
+                  <div class="col-md-12">
+                      <p>投稿者：<a href="">◯◯◯◯</a>  作成日：◯◯◯◯年◯◯月◯◯日</p>
+                  </div>
+              </div>
 
                   <div class="plan-contents">
-                    <p><span class="glyphicon glyphicon-tags" aria-hidden="true"></span>：◯◯◯◯  作成日：◯◯◯◯年◯◯月◯◯日</p>
                     <p class="plan-idea">
-                      投稿者：◯◯◯◯    目的地：京都符    訪問した年月：◯◯◯◯年◯◯月<br>
-                      スポット：◯◯◯◯<br>
+                          目的地：京都符    訪問した年月：◯◯◯◯年◯◯月<br>
+                      スポット：<a href="">◯◯◯◯</a><br>
                       ◯◯◯◯◯◯◯◯◯◯◯◯<br>
                       交通手段<br>
                       ◯◯◯◯◯◯◯◯◯◯◯◯<br>
@@ -180,42 +149,39 @@
                     </p>
                   </div>
 
-                  <div class="plan-content-profile">
-                  <div class="col-md-2">
-                    <div class="position-fix">
-                      <div class="favorite-number">
-                        <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>：◯◯
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-8">
+              <div class="plans-show">
+                <div class="plans-title">
+                  <div class="col-md-12">
                     <div class="plan-title">
-                      <h3>
-                        <a href="#">京都嵐山紅葉デート</a>
+                      <h3 class="plan-title-name">
+                        <a href="#">宇治抹茶スイーツ巡り宇治抹茶スイーツ巡り宇治抹茶スイーツ巡り宇治抹茶スイーツ巡り</a>
                       </h3>
                     </div>
                   </div>
-                  <div class="col-md-2">
-                    <!-- <div class="position-fix">
-                      <a href="#" class="active">
-                        <div class="btn-set">
-                          <span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+
+                  <div class="tag-favonum">
+                    <div class="col-md-10 tag-content-mypage">
+                      <span class="glyphicon glyphicon-tags" aria-hidden="true">：◯◯◯◯abcdefghijklmnopqrstuvwxyz◯◯◯◯abcdefghijklmnopqrstuvwxyz◯◯◯◯abcdefghijklmnopqrstuvwxyz◯◯◯◯abcdefghijklmnopqrstuvwxyz◯◯◯◯abcdefghijklmnopqrstuvwxyz◯◯◯◯abcdefghijklmnopqrstuvwxyz</span>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="position-fix-favoritenum">
+                        <div class="favorite-number">
+                          <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>：◯◯
                         </div>
-                      </a>
-                      <a href="#" class="active">
-                        <div class="btn-set">
-                          <span class="glyphicon glyphicon-trash"></span>
-                        </div>
-                      </a>
-                    </div> -->
+                      </div>
+                    </div>
                   </div>
                 </div>
 
+                  <div class="col-md-12">
+                      <p>投稿者：<a href="">◯◯◯◯</a>  作成日：◯◯◯◯年◯◯月◯◯日</p>
+                  </div>
+              </div>
+
                   <div class="plan-contents">
-                    <p><span class="glyphicon glyphicon-tags" aria-hidden="true"></span>：◯◯◯◯  作成日：◯◯◯◯年◯◯月◯◯日</p>
                     <p class="plan-idea">
-                      投稿者：◯◯◯◯    目的地：京都符    訪問した年月：◯◯◯◯年◯◯月<br>
-                      スポット：◯◯◯◯<br>
+                          目的地：京都符    訪問した年月：◯◯◯◯年◯◯月<br>
+                      スポット：<a href="">◯◯◯◯</a><br>
                       ◯◯◯◯◯◯◯◯◯◯◯◯<br>
                       交通手段<br>
                       ◯◯◯◯◯◯◯◯◯◯◯◯<br>
@@ -238,7 +204,7 @@
                     </p>
                   </div>
 
-                </div>
+                
                 <div class="col-md-12 mypage-pagi">
                   <ul class="pagination">
                     <li>
@@ -266,15 +232,7 @@
                 </div>
             </div>
             <div class="col-md-2">
-              <h2>
-                Heading
-              </h2>
-              <p>
-                Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-              </p>
-              <p>
-                <a class="btn" href="#">View details »</a>
-              </p>
+              
             </div>
           </div>
         </div>
@@ -286,42 +244,23 @@
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; JAT 2016. All Rights Reserved</p>
-                </div>
+          <div>
+            <ul class="list-inline banner-social-buttons">
+              <li>
+                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+              </li>
+              <li>
+                <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+              </li>
+              <li>
+                <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
+              </li>
+            </ul>
+          </div>
 
-                <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+          <div class="copyright text-muted small">
+            <p class="copyright">Copyright &copy; JAT 2016. All Rights Reserved</p>
+          </div>
         </div>
     </footer>
 
